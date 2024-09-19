@@ -1,0 +1,56 @@
+body{
+	background-color: #7fb9c2;
+}
+.pogoda{
+	margin-top: 100px;
+}
+h1{
+	color: #164f55;
+	font-size: 72px;
+	margin-bottom: 0px;
+	font-family: sans-serif;
+}
+h2{
+	color:#628ca6;
+	font-size: 28px;
+	margin-top: 10px;
+	font-family: sans-serif;
+}
+
+p{
+	color: #e7f0ed;
+	font-size: 32px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+p.temp{
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+.img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.wint img{
+	width: 30px;
+}
+
+.humidity img, .pressure img{
+	width: 25px;
+}
+
+
+.pogoda_flex{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin-bottom: 50px;
+}
+
+.wint, .humidity{
+	margin-right: 30px;;
+}
